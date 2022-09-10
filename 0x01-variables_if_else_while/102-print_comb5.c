@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/*********
  * main - a simple program that outputs unordered
  * Description: using the main function
  * Return: Always 0 (Success)
