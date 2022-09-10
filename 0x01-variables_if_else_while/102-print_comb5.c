@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-/*********
- * main - a simple program that outputs unordered
- * Description: using the main function
+/**
+ * main - prints all possible combinations of two-digit numbers
  * Return: Always 0 (Success)
  */
 int main(void)
