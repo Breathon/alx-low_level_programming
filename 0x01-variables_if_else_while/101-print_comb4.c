@@ -28,7 +28,7 @@ putchar(' ');
 }
 }
 }
-putchar('\n')
-returb (0);
+putchar('\n');
+return (0);
 }
 
