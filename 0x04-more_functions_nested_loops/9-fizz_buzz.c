@@ -30,6 +30,4 @@ int main(void)
 		h++;
 	}
 	return (0);
-	return (0);
 }
- 
