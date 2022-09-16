@@ -1,8 +1,7 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - function that checks for uppercase character.
- * main - main function
+ *   main - main function
  * * Return: 0
  */
 
