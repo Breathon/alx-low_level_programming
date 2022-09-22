@@ -50,7 +50,6 @@ void print_buffer(char *b, int size)
 		{
 			print_line(b, 9, i);
 		}
-		{
 			else
 			{
 				print_line(b, size % 10 - 1, i);
