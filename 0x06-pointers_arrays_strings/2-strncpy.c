@@ -6,6 +6,8 @@
  * the remainder of the destination string is fulled with the null bytes.
  * Works identically to the standard library function 'strncpy'.
  * @dest: buffer storing
+ * @n:max number of byte copied
+ * Return: returns
  */
 
 char *_strncpy(char *dest, char *src, int n)
