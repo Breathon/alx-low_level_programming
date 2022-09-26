@@ -8,7 +8,7 @@
  * Return: pointerto be copied memory block
  */
 
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n);
 {
 	unsigned int i = 0;
 
@@ -16,5 +16,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	{
 		dest[i] = src[i];
 	}
+
 	return (dest);
 }
+
