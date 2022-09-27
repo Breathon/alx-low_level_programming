@@ -9,7 +9,7 @@
  * Return: void
  */
 void print_diagsums(int *a, int size)
-{
+{	
 	int i, j, p, l = 0, r = 0;
 
 	for (i = 0; i < size; i++)
@@ -24,3 +24,4 @@ void print_diagsums(int *a, int size)
 	}
 	printf("%i, %i\n", l, r);
 }
+
