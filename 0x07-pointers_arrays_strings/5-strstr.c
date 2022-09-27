@@ -1,7 +1,6 @@
 #include "main.h"
 
-/**
- * _strstr - locates a substring
+/** _strstr - locates a substring
  * @haystack: string in which to check for needle
  * @needle: substring to find in haystack
  *
@@ -15,12 +14,12 @@ char *_strstr(char *haystack, char *needle)
 	{
 		while (needle[j] && (haystack[i] == needle[0]))
 		{
-			if (haystack[i + j] == needle [j])
+			if (haystack[i + j] == needle[j])
 				j++;
 			else
 				break;
 		}
-		if (needle [j])
+		if (needle[j])
 		{
 			i++;
 			j = 0;
