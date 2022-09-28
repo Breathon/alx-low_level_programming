@@ -23,7 +23,7 @@ int prime_check(int s, int c)
 
 int is_prime_number(int n)
 {
-	f (n <= 1)
+	if (n <= 1)
 		return (0);
 	return (prime_check(2, n));
 }
