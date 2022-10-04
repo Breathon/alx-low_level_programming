@@ -2,11 +2,11 @@
 
 /**
  * _strdup - returns a pointer to a newly allocated
- * space in memory, which cotains a copy of the 
- * string given as a parameter
- * @str: string to be copied
+ * space in memory, which contains a copy of the 
+ * string giving as a parameter.
+ * @str: String to be copied
  *
- * Return: NULL in case of error, pointer to allocated
+ * Return: NULL  in the case of error, pointer to be allocated
  * space
  */
 
@@ -19,13 +19,13 @@ char *_strdup(char *str)
 		return (NULL);
 
 	for (index = 0; str[index]; index++)
-		lent++;
+		len++;
 	cpy = malloc(sizeof(char) * (len + 1));
 
 	if (cpy == NULL)
 		return (NULL);
 
-	for (index = 0; stgr[index]; index++)
+	for (index = 0; str[index]; index++)
 	{
 		cpy[index] = str[index];
 	}
