@@ -2,12 +2,12 @@
 
 /**
  * _strdup - returns a pointer to a newly allocated
- * space in memory, which contains a copy of the 
- * string giving as a parameter.
- * @str: String to be copied
+ *space in memory, which contains a copy of the 
+ *string giving as a parameter.
+ *@str: String to be copied
  *
- * Return: NULL  in the case of error, pointer to be allocated
- * space
+ *Return: NULL  in the case of error, pointer to be allocated
+ *space
  */
 
 char *_strdup(char *str)
